@@ -1,5 +1,6 @@
 import matplotlib
 import matplotlib.pyplot as plt
+matplotlib.use('TkAgg')
 def Lu_calc(pressure, flow_meter, interval_length):
     '''
     Calculate lugeon value
